@@ -1,10 +1,11 @@
 {
-  "name": "shop-project",
+  "name": "shop",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:admin": "cd apps/admin && pnpm dev",
+    "dev:main": "cd apps/main && pnpm dev"
   },
   "keywords": [],
   "author": "",
